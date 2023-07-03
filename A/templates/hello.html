@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %} Hello {% endblock %}
+      
+{% block content %}
+      {% if name == 'admin' %}
+         <p>Sorry...</p>
+      {% else %}
+         <h3>Hello {{ name|upper }} you are {{ number|add:'2' }} years old ... </h3>
+      {% endif %}
+{% endblock %}
+
