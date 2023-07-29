@@ -1,3 +1,3 @@
 # django_intro
 #### This is a simple django project that shows the user registration, login and logout.
-#### it is taken from mongard.ir
+#### This project not personal and is taken from mongard.ir
